@@ -68,6 +68,10 @@ jobs:
             dist: temurin
           - version: 17
             dist: temurin
+          - version: 18
+            dist: temurin
+          - version: 19-ea
+            dist: temurin
       fail-fast: false
 
     runs-on: ${{ matrix.os }}
